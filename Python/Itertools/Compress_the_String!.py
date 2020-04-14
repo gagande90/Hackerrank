@@ -26,4 +26,4 @@ S = str(raw_input())
 T = [list(g) for k, g in groupby(S)]
 
 for i in T:
-    print (len(i), int(i[0])),
+    print (len(i), int(i[0]))
